@@ -3,7 +3,6 @@ import 'package:flutter_bloc/flutter_bloc.dart';
 import 'package:to_do_list/cubits/to_do_cubit/to_do_cubit.dart';
 import 'package:to_do_list/models/list_model.dart';
 import 'package:to_do_list/views/edit_task_view.dart';
-import 'package:to_do_list/widgets/edit_task.dart';
 
 class CheckboxHomeView extends StatefulWidget {
   const CheckboxHomeView({super.key, required this.list});
